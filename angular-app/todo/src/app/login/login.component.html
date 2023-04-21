@@ -1,0 +1,15 @@
+<h1>Login!</h1>
+
+<div class="alerts alert-warning" *ngIf="invalidLogin">{{errorMessage}}</div>
+
+<div class="alerts alert-warning" *ngIf="routerGurardService.notLoggedInURLTyping">{{notLoggedInMessage}}</div>
+<!-- added by me -->
+
+<div class="container">
+  Username: <input type="text" name="username" [(ngModel)]="username"><br><br>
+  Password: <input type="password" name="password" [(ngModel)]="password"><br><br>
+
+  <!-- <button (click)=handleLogin() class="btn btn-success">Login</button> -->
+  <!-- <button (click)=handleBasicAuthLogin() class="btn btn-success">Login</button> -->
+  <button (click)=handleJWTAuthLogin() class="btn btn-success">Login</button>
+</div>
