@@ -1,0 +1,25 @@
+[ {
+  "previousHash" : "0",
+  "currentHash" : "acb615f",
+  "voterId" : "Genesis",
+  "candidateId" : "None",
+  "timestamp" : "2024-11-01T01:40:13.528006"
+}, {
+  "previousHash" : "acb615f",
+  "currentHash" : "a14eab3a",
+  "voterId" : "100",
+  "candidateId" : "1",
+  "timestamp" : "2024-11-01T01:42:24.8176"
+}, {
+  "previousHash" : "a14eab3a",
+  "currentHash" : "d89af1bd",
+  "voterId" : "101",
+  "candidateId" : "1",
+  "timestamp" : "2024-11-01T14:00:17.642264"
+}, {
+  "previousHash" : "d89af1bd",
+  "currentHash" : "6c1e1c8",
+  "voterId" : "103",
+  "candidateId" : "2",
+  "timestamp" : "2024-11-02T21:56:36.147901"
+} ]

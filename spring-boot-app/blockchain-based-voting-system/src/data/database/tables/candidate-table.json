@@ -1,0 +1,13 @@
+[ {
+  "id" : 1,
+  "name" : "Narendra Modi",
+  "party" : "BJP"
+}, {
+  "id" : 2,
+  "name" : "Rahul Gandhi",
+  "party" : "Congress"
+}, {
+  "id" : 3,
+  "name" : "Arvind Kejriwal",
+  "party" : "AAP"
+} ]

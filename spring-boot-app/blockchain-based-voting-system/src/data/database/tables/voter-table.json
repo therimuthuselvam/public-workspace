@@ -1,0 +1,25 @@
+[ {
+  "id" : 1,
+  "firstName" : "Theri",
+  "lastName" : "Muthu Selvam",
+  "voterId" : "100",
+  "hasVoted" : true
+}, {
+  "id" : 2,
+  "firstName" : "Mahatma",
+  "lastName" : "Gandhi",
+  "voterId" : "101",
+  "hasVoted" : true
+}, {
+  "id" : 3,
+  "firstName" : "Jawaharlal",
+  "lastName" : "Nehru",
+  "voterId" : "103",
+  "hasVoted" : true
+}, {
+  "id" : 4,
+  "firstName" : "K",
+  "lastName" : "Kamaraj",
+  "voterId" : "102",
+  "hasVoted" : false
+} ]
