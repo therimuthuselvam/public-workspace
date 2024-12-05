@@ -1,0 +1,28 @@
+# Official Java runtime as a base image
+FROM openjdk:21-jdk-slim
+
+# Setting the working directory inside the container
+WORKDIR /app
+
+# Copy the built Spring Boot jar to the container
+COPY target/blockchain-based-voting-system-0.0.2-SNAPSHOT.jar app.jar
+
+# Expose the application port
+EXPOSE 8080
+
+# Run the application
+ENTRYPOINT ["java", "-jar", "app.jar"]
+
+
+######
+# Run to build the docker image - `podman build -t blockchain-voting-system -f Podmanfile .`
+
+# This binds your local port 8080 to the container’s port 8080, allowing you to access the application at http://localhost:8080 `podman run -p 8080:8080 blockchain-voting-system`
+
+# Tag image with the registry's URL `podman tag blockchain-voting-system therimuthuselvam/blockchain-voting-system:latest`
+
+# Login to the docker hub `podman login docker.io`
+
+# Push the image `podman push therimuthuselvam/blockchain-voting-system:latest`
+
+
